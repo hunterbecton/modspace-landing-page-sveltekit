@@ -1,9 +1,13 @@
+<script>
+	import heroImage from '$lib/assets/woman-couch.jpg';
+</script>
+
 <div class="px-4 py-12 md:py-16 md:px-8">
 	<div class="mx-auto flex max-w-5xl flex-col items-center justify-between lg:flex-row">
 		<img
 			class="h-[13rem] w-[13rem] object-cover md:h-[20rem] md:w-[20rem] lg:h-[32.5rem] lg:w-[32.5rem]"
 			alt="Woman jumping on couch"
-			src="woman-couch.jpg"
+			src={heroImage}
 		/>
 		<header class="mt-6 max-w-[26.75rem] md:mt-8 lg:mt-0">
 			<p

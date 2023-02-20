@@ -1,9 +1,14 @@
 <script>
+	import kitchenImage from '$lib/assets/kitchen.jpg';
+	import livingRoomImage from '$lib/assets/living-room.jpg';
+	import hallwayImage from '$lib/assets/hallway.jpg';
+	import bedroomImage from '$lib/assets/bedroom.jpg';
+
 	let categories = [
-		{ name: 'Kitchen', href: '/', image: 'kitchen.jpg' },
-		{ name: 'Living room', href: '/', image: 'living-room.jpg' },
-		{ name: 'Hallway', href: '/', image: 'hallway.jpg' },
-		{ name: 'Bedroom', href: '/', image: 'bedroom.jpg' }
+		{ name: 'Kitchen', href: '/', image: kitchenImage },
+		{ name: 'Living room', href: '/', image: livingRoomImage },
+		{ name: 'Hallway', href: '/', image: hallwayImage },
+		{ name: 'Bedroom', href: '/', image: bedroomImage }
 	];
 </script>
 

@@ -1,4 +1,6 @@
 <script>
+	import diningRoomImage from '$lib/assets/dining-room.jpg';
+
 	import Heart from '../icon/Heart.svelte';
 	import Deliver from '../icon/Deliver.svelte';
 	import Verified from '../icon/Verified.svelte';
@@ -33,7 +35,7 @@
 		<img
 			class="h-[13rem] w-[13rem] object-cover md:h-[20rem] md:w-[20rem] lg:h-[26.75rem] lg:w-[26.75rem]"
 			alt="Dining room table"
-			src="dining-room.jpg"
+			src={diningRoomImage}
 		/>
 		<div class="mt-12 grid max-w-[32.5rem] grid-cols-1 gap-x-8 gap-y-12 md:grid-cols-2 lg:mt-0">
 			{#each features as { icon, title, description }}

@@ -1,19 +1,23 @@
 <script>
+	import testimonialOneImage from '$lib/assets/testimonial-1.jpg';
+	import testimonialTwoImage from '$lib/assets/testimonial-2.jpg';
+	import testimonialThreeImage from '$lib/assets/testimonial-3.jpg';
+
 	let testimonials = [
 		{
-			image: 'testimonial-1.jpg',
+			image: testimonialOneImage,
 			name: 'Tahlia Vienna',
 			quote:
 				'Viverra aenean nibh eu facilisis odio donec ut. Quis vitae aliquet placerat id nunc integer tincidunt. Egestas cursus eget faucibus.'
 		},
 		{
-			image: 'testimonial-2.jpg',
+			image: testimonialTwoImage,
 			name: 'Noel Bret',
 			quote:
 				'Integer sit ultricies integer diam condimentum enim purus. Tellus non dictum sem suspendisse aenean. Volutpat lectus hendrerit aliquet.'
 		},
 		{
-			image: 'testimonial-3.jpg',
+			image: testimonialThreeImage,
 			name: 'Sara Tiffany',
 			quote:
 				'Iaculis purus tincidunt volutpat ipsum egestas elementum fermentum quis. Ultrices vitae metus, vestibulum tempor. Id quam eget.'
