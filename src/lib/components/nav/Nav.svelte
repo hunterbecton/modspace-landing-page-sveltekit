@@ -36,10 +36,7 @@
 					{#if open}
 						<Cancel class="block h-8 w-8 text-neutral-ten md:h-10 md:w-10" aria-hidden="true" />
 					{:else}
-						<Menu
-							class="block h-8 w-8 text-neutral-ten group-hover:text-brand-six md:h-10 md:w-10"
-							aria-hidden="true"
-						/>
+						<Menu class="block h-8 w-8 text-neutral-ten md:h-10 md:w-10" aria-hidden="true" />
 					{/if}
 				</DisclosureButton>
 				<a
